@@ -1,6 +1,6 @@
 from flask import Flask, request
 import os
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 import tensorflow as tf
 from tensorflow import keras
 
